@@ -3,5 +3,9 @@ LAB01
 #include <stdio.h>
 main()
 {
-pint("hello, Jaruwan\n");
+
+char yourname[100];
+printf("what is your name?\t");
+scanf("%s",yourname);
+printf("hello,%s\n",yourname);
 }
